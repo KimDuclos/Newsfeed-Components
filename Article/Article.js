@@ -16,14 +16,15 @@ class Article {
 
   expandArticle() {
     // Using our reference to the domElement, toggle a class to expand or hide the article.
-    this.domElement.article.classList.toggle('article-open');
-    this.domElement.expBtn.innerHTML = 'close';
+    this.domElement.classList.toggle('article-open');
+    //this.domElement.expBtn.innerHTML = 'close';
     //this.domElement.closeBtn.classList.toggle('.close');
   }
 
-  closeArticle() {
-    this.domElement.article.classList.toggle('close');
-  }
+  // closeArticle() {
+  //   this.domElement.classList.toggle('close');
+  //   this.domElement.expBtn.innerHTML = 'expand';
+  // }
 }
 
 /* START HERE: 
